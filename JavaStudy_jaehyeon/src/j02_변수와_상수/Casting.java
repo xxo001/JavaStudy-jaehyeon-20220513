@@ -1,3 +1,4 @@
+package j02_변수와_상수;
 
 public class Casting {
 	public static void main(String[] args) {
