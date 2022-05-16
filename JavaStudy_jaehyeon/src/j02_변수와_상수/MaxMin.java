@@ -7,9 +7,8 @@ public class MaxMin {
 		final int MIN_NUMBER;
 		MIN_NUMBER = 100;
 		
-		final String PATH = "C://junil//jaehyeon//workspace";
-		
-		final double PI = 3.14;
+//		final String PATH = "C://junil//jaehyeon//workspace";
+//		final double PI = 3.14;
 		
 		System.out.println(MAX_NUMBER);
 		System.out.println(MIN_NUMBER);
