@@ -56,5 +56,8 @@ public class If04 {
 //		}else {
 //			System.out.println("원점");
 //		}
+		
+		
+		
 	}
 }
