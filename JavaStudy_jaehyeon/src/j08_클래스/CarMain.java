@@ -21,14 +21,15 @@ public class CarMain {
 		Car sonata = new Car();
 		Car model3 = new Car();
 		
+		//k7정보
 		k7.company = "KIA";
 		k7.model = "K5";
 		k7.color = "블랙";
-		
+		//sonata정보
 		sonata.company = "현대자동차";
 		sonata.model = "SONATA";
 		sonata.color = "화이트";
-		
+		//model3정보
 		model3.company = "Tesla";
 		model3.model = "Model3";
 		model3.color = "레드";
@@ -40,16 +41,13 @@ public class CarMain {
 		
 		System.out.println("\n[차량 정보]");
 		k7.showInfoAll();
-		System.out.println();
 		sonata.showInfoAll();
-		System.out.println();
 		model3.showInfoAll();
 		
-		System.out.println("\n[색상 변경]");
-		
-		k7.setCar("블루");
-		sonata.setCar("그레이");
-		model3.setCar("그린");
+		System.out.println("[색상 변경]");
+		k7.setColor("블루");
+		sonata.setColor("그레이");
+		model3.setColor("그린");
 		
 		System.out.println(k7.getCar());
 		System.out.println(sonata.getCar());

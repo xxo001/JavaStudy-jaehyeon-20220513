@@ -5,6 +5,8 @@ public class Car {
 	String model;
 	String color;
 	
+	
+	
 	void showCompanyInfo() {
 		System.out.println(model + " 차량은 " + company + " 회사에서 제조된 차량입니다.");
 		
@@ -14,6 +16,7 @@ public class Car {
 		System.out.println("회사 : " + company);
 		System.out.println("모델 : " + model);
 		System.out.println("색상 : " + color);
+		System.out.println();
 		
 	}
 
@@ -21,8 +24,8 @@ public class Car {
 		return company + "_" + model + "_" + color;
 	}
 	
-	void setCar(String color1) {
-		color = color1 ;
+	void setColor(String color) {
+		this.color = color ;
 		
 	}
 	
