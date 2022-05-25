@@ -25,13 +25,15 @@ public class Teacher {
 	}
 	
 	public void showInfo() {
-		String _address = name + "님: " + address;
-		String _phone = name + "님: " + phone;
+		String _address = creatMassege(name, address);
+		String _phone = creatMassege(name, phone);
 		
 		System.out.println(_address);
 		System.out.println(_phone);
-		
-		
+	}
+	private String creatMassege(String name, String value) {
+		return name + "님: " + value;
+				
 	}
 
 	

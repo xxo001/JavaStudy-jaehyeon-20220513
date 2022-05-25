@@ -13,7 +13,7 @@ public class UserMain {
 		
 		teacher.setName("김준일");
 		teacher.setAddress("부산");
-		teacher.setPhone("01066106518");
+		teacher.setPhone("01099881916");
 		teacher.showInfo();
 		
 	}
