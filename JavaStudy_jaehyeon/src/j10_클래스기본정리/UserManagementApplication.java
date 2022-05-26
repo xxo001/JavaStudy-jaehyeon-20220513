@@ -9,13 +9,16 @@ public class UserManagementApplication {
 		= new UserManagementController(new UserService());
 		
 		userManagementController.creatUser();
+		userManagementController.creatUser();
+		userManagementController.creatUser();
+
 		
 		
 		
 		
 		
 		
-		userManagementController.updateUser();
+//		userManagementController.updateUser();
 		
 		
 		
