@@ -33,7 +33,6 @@ public class UserManagementController {
 				return i;
 			}
 		}
-		
 		return -1;
 	}
 

@@ -42,6 +42,7 @@ public class Input03 {
 		System.out.println("주소 : "+ adress);
 		System.out.println("성별 : "+ gender);
 		
+		
 	}
 		
 }
