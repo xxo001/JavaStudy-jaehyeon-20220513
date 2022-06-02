@@ -88,14 +88,4 @@ public class School {
 				+ "]";
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
