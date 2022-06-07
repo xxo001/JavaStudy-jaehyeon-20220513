@@ -39,6 +39,8 @@ public class HashSetEx {
 	}
 	System.out.println(sts);
 	
+	Student st = new Student();
+	
 	
 	
 	
