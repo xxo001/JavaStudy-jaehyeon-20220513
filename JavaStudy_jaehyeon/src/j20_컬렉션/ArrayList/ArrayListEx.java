@@ -39,5 +39,7 @@ public class ArrayListEx {
 		for (int i = 0; i < strArrayList.size(); i++) {
 			System.out.println(strArrayList.get(i));
 		}
+		
+		strArrayList.forEach(r -> System.out.println(r));
 	}
 }
